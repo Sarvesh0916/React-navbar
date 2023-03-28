@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    background-color: royalblue;
+}
+
+.logo {
+    color:blanchedalmond;
+    margin: 20px 30px;
+}
+
+ul {
+    display: flex;
+    width: 28%;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    padding: 25px 0;
+}
+
+ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 25px 35px;
+    color: blanchedalmond;
+}
+
+ul li a:hover,
+ul li:hover {
+    color: black;
+    background-color: cyan;
+}
