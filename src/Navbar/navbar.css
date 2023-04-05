@@ -3,23 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #222;
+}
 
 
 .header {
     display: flex;
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 
 .logo {
-    color:blanchedalmond;
+    color:royalblue;
     margin: 20px 30px;
 }
 
 ul {
     display: flex;
-    width: 28%;
+    width: 35%;
     justify-content: space-between;
     margin: 0 auto;
+    /* margin-left: 50rem; */
     font-size: 20px;
 }
 
@@ -32,7 +36,7 @@ ul li a {
     font-weight: 500;
     text-decoration: none;
     padding: 25px 35px;
-    color: blanchedalmond;
+    color: #fff;
 }
 
 ul li a:hover,
@@ -40,3 +44,38 @@ ul li:hover {
     color: black;
     background-color: cyan;
 }
+#div{
+    text-align: center;
+}
+#p{
+    margin: auto;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 500;
+    color: #fff;
+}
+@media only screen and (max-width:950px){
+    .logo{
+    margin: 10px 10px;
+
+    }
+    ul{
+        width: 10%;
+    /* margin-left: 2rem; */
+    font-size: 25px;
+
+    }
+    ul li{
+        padding: 15px 0;
+    }
+    ul li a{
+        padding: 25px 15px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+}
+
